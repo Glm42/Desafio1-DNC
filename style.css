@@ -1,0 +1,74 @@
+*{
+    font-family: inter;
+}
+#header {
+    background-color: #303030;
+    color: #FFFFFF;
+    height: 13rem;
+    max-width: 100%;
+    padding: 8rem 0rem 0rem 3.875rem;
+}
+#information {
+    background-color: #F9F9F9;
+    height: 13rem;
+    max-width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-left: 10.688rem;
+    margin-bottom: 0px;
+}
+#presentation {
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    gap: 4rem;
+    padding: 5.25rem 3rem 5.75rem 0rem;
+}
+#presentationText {
+    text-align: justify;
+    padding-left: 4.813rem;
+}
+#presentationText h1 {
+    font-weight: 500;
+    font-size: 2.15rem;
+}
+#formSection {
+    background-color: #303030;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+#formsHeader {
+    text-align: center;
+    padding-top: 5.438rem;
+    padding-bottom: 3rem;
+}
+#form {
+    display: grid;
+    grid-auto-flow: row;
+}
+.input {
+    width: 22rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    margin: 0 29.125rem 3rem 29.125rem;
+    padding-left: 1.875rem;
+    font-family: raleway;
+}
+input::placeholder {
+    color:rgba(0, 0, 0, 0.3);
+}
+#button {
+    width: 17.875rem;
+    height: 3.25rem;
+    border-radius: 0.625rem;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1.5rem 36.063rem 5.438rem 32.5rem;
+}
